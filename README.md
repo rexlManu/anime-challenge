@@ -7,13 +7,16 @@ You can decide which element you want to add easily with the id of the anime
 
 Build with tailwind, react and typescript
 
-
 ## Deployment
 
 ### Build image
 
 ``docker build -t anilist-challenge-creator .``
 
+### Push
+
+``docker push rexlmanu/anilist-challenge-creator``
+
 ### Run container
 
-``docker run -d --name anilist-challenge-creator --network proxy --restart=unless-stopped anilist-challenge-creator``
+``docker run -d --name anilist-challenge-creator --network proxy --restart=unless-stopped rexlmanu/anilist-challenge-creator``
