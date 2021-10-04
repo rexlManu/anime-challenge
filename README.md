@@ -1,5 +1,8 @@
 # anime challenge creator
 
+[![Docker Image](https://badgen.net/badge/icon/docker?icon=docker&label)]([https://https://docker.com/](https://hub.docker.com/r/rexlmanu/anilist-challenge-creator))
+
+
 This tool exist to easily create the daily post for anilist with the 100 days challenges.
 You can decide which element you want to add easily with the id of the anime
 
